@@ -1,0 +1,46 @@
+.hidden-element {
+    visibility: hidden;
+}
+
+.show-element {
+    visibility: visible;
+}
+
+#start-input-container {
+    text-align: center;
+}
+
+#restart-container {
+    text-align: center;
+}
+
+.input-robot {
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    padding-left: 5px;
+    color: #354052;
+}
+
+.game-button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+
+.canvas-container {
+    text-align: center;
+}
+
+.mobile-text {
+    font-size: xx-large;
+    font-weight: bolder;
+}

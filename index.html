@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Robot</title>
+    <link href="stylesheets/application.css" rel="stylesheet">
+</head>
+    <div id="mobile-notification">
+        <p>Unfortunately this game is only for desktop browsers</p>
+    </div>
+    <div id="start-input-container" class="show-element">
+        </br>
+        <label for="input-field-width">Please input field width</label>
+        </br>
+        <select id = "input-field-width" class="input-robot">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option selected value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+        </br>
+        <label for="input-field-height">Please input field height</label>
+        </br>
+        <select id = "input-field-height" class="input-robot">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option selected value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+        </br>
+        <label for="input-field-x-position">Please input x position of Robot. Max = field width - 1</label>
+        </br>
+        <select id = "input-field-x-position" class="input-robot">
+            <option selected value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        </br>
+        <label for="input-field-y-position">Please input y position of Robot. Max = field height - 1</label>
+        </br>
+        <select id = "input-field-y-position" class="input-robot">
+            <option selected value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        </br>
+        <input type="button" value="Start Game" id="btn-start-game" class="game-button">
+    </div>
+    <div id="restart-container" class="hidden-element">
+        <input type="button" value="Restart Game" id="btn-restart-game" class="game-button">
+    </div>
+    <div class="canvas-container">
+        <canvas id="field-canvas" width="600px" height="600px"></canvas>
+    </div>
+
+</body>
+    <script src="javascripts/constants.js"></script>
+    <script src="javascripts/user_notification.js"></script>
+    <script src="javascripts/field.js"></script>
+    <script src="javascripts/field_drawer.js"></script>
+    <script src="javascripts/user_input.js"></script>
+    <script src="javascripts/game_play.js"></script>
+    <script src="javascripts/application.js"></script>
+</html>
